@@ -27,6 +27,8 @@ class DataTab(Qw.QWidget):
 
         self.dfTableTitle = Qw.QLabel('Data:')
         self.dfTable = Qw.QTableWidget()
+        self.dfTable.verticalHeader().setVisible(False)
+        self.dfTable.setEditTriggers(self.dfTable.NoEditTriggers)
 
 
         self.wavelengths = Qw.QListWidget(parent=self)
