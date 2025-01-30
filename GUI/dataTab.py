@@ -2,7 +2,7 @@ from PyQt5 import QtWidgets as Qw
 from PyQt5 import QtCore as Qc
 from PyQt5.QtGui import QIcon
 
-from functions import create_dad_dataframe, export_wavelength
+from GUI.functions import create_dad_dataframe, export_wavelength
 
 
 class DataTab(Qw.QWidget):

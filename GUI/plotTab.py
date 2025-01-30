@@ -7,8 +7,8 @@ from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
 import numpy as np
 
-from dataTab import MessageWindow
-from functions import intensity_matrix, shift_intensity_matrix, calc_axis, plot2d, create_animation
+from GUI.dataTab import MessageWindow
+from GUI.functions import intensity_matrix, shift_intensity_matrix, calc_axis, plot2d, create_animation
 
 
 class PlotTab(Qw.QWidget):

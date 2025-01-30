@@ -3,8 +3,8 @@ import sys
 from PyQt5 import QtWidgets as Qw
 from PyQt5.QtGui import QIcon
 
-from dataTab import DataTab
-from plotTab import PlotTab
+from GUI.dataTab import DataTab
+from GUI.plotTab import PlotTab
 
 
 class AppWindow(Qw.QMainWindow):
